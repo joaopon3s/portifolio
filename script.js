@@ -41,11 +41,11 @@ let deferredPrompt;
 window.addEventListener('beforeinstallprompt', (e) => {
     e.preventDefault();
     deferredPrompt = e;
-    // Mostra o popup customizado
+// Mostra o popup customizado
     const installPopup = document.createElement('div');
     installPopup.id = 'pwa-install-popup';
     installPopup.innerHTML = `
-        <div style="position:fixed;bottom:80px;right:30px;z-index:9999;background:#fff;border-radius:12px;padding:20px;box-shadow:0 4px 16px rgba(0,0,0,0.2);text-align:center;">
+        <div style="position:center;bottom:80px;right:30px;z-index:9999;background:#fff;border-radius:12px;padding:20px;box-shadow:0 4px 16px rgba(0,0,0,0.2);text-align:center;">
             <strong>Instale nosso aplicativo!</strong><br>
             Tenha acesso rápido as nossas novidades.<br>
             <button id="pwa-install-btn" class="btn btn-success mt-2">Instalar</button>
@@ -62,3 +62,13 @@ window.addEventListener('beforeinstallprompt', (e) => {
         installPopup.remove();
     };
 });
+//Abrir a imgem do carrosel
+const carouselItems = document.querySelectorAll('.carousel-item');
+
+  carouselItems.forEach((item) => {
+    item.addEventListener('click', (event) => {
+      const imageSrc = item.querySelector('img').src;
+      // Abrir a imagem em uma nova janela, modal, etc.
+      window.open(imageSrc, '_blank');
+    });
+  });
