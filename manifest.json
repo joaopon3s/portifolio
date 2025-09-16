@@ -1,0 +1,20 @@
+{
+  "name": "Portifólio - João Victor Sato",
+  "short_name": "Portifólio",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#330033",
+  "theme_color": "#330033",
+  "icons": [
+    {
+      "src": "https://media.licdn.com/dms/image/v2/D4D03AQErLEHwk6g4Eg/profile-displayphoto-scale_200_200/B4DZjuSeBYG8AY-/0/1756344477813?e=1759968000&v=beta&t=U7ansb-4DA6ACwhqN6Xj-y4O1Uf2UwgDBXXW5y_jWYo",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://media.licdn.com/dms/image/v2/D4D03AQErLEHwk6g4Eg/profile-displayphoto-scale_200_200/B4DZjuSeBYG8AY-/0/1756344477813?e=1759968000&v=beta&t=U7ansb-4DA6ACwhqN6Xj-y4O1Uf2UwgDBXXW5y_jWYo",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

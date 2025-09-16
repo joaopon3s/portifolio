@@ -1,0 +1,77 @@
+h1 {
+    color: white;
+    padding-bottom: 10px;
+    font-size: 32px;    
+}
+.header-bg img.rounded-circle {
+    padding: 12px;
+}
+.header-bg {
+  background-image: url("https://media.licdn.com/dms/image/v2/D4D16AQFsypFFC6iNRQ/profile-displaybackgroundimage-shrink_350_1400/B4DZkNNmC0GsAY-/0/1756863292755?e=1760572800&v=beta&t=qMqZyzoZhgP7Mt9BFv99g1BButLdGhmwC2PwVFrabnk");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.tab-pane h2:first-of-type {
+    padding-top: 0px;
+}
+#whatsapp-float {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    z-index: 9999;
+    animation: pulse 1.2s infinite;
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.15); }
+    100% { transform: scale(1); }
+}
+#whatsapp-float img {
+    border-radius: 50%;
+    box-shadow: 0 0 24px 4px rgba(255,255,255,0.25);
+}
+body {
+    padding-bottom: 70px;
+    
+}
+.nav-tabs {
+    display: center;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 1000;
+    text-align: center;
+}    
+.nav-tabs .nav-link {
+    color: #000000 !important;
+    background: transparent;
+    border: none;
+}
+.nav-tabs .nav-link img {
+    filter: brightness(1) invert(0); 
+}
+.nav-tabs .nav-link figcaption {
+    color: #000000 !important;
+}
+.nav-tabs .nav-link.active {
+    color: #000000 !important;
+    background: rgb(255, 255, 255);
+    border-top: 2px solid black;
+}
+.nav-tabs .nav-link.active img {
+    filter: brightness(1) invert(0); 
+    color: rgb(0, 0, 0);
+}
+.nav-tabs .nav-link.active figcaption {
+    color: #000000 !important;
+}
+.carousel-inner img {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+}
+.btn-primary {
+    background-color: green;
+    border: none;
+}
