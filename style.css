@@ -58,7 +58,7 @@ body {
     color: #000000 !important;
     background: rgb(255, 255, 255);
     border-top: 2px solid rgb(0, 153, 255);
-    box-shadow: 0 0 10px 1px rgb(0, 162, 255);
+    box-shadow: 0 1px 10px rgb(0, 162, 255);
 }
 .nav-tabs .nav-link.active img {
     filter: brightness(1) invert(0); 
