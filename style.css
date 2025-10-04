@@ -1,4 +1,4 @@
-h2 {
+7h2 {
     text-align: center;
 }
 p  {
@@ -46,8 +46,7 @@ h1 {
 body {
     padding-bottom: 70px;
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-  color: white;
+    color: white;
 }
 .nav-tabs {
     display: center;
