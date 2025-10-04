@@ -1,5 +1,6 @@
 h2 {
     text-align: center;
+    color: black;
 }
 p  {
     color: gray;
@@ -49,6 +50,7 @@ ul il {
 body {
     padding-bottom: 70px;
     font-family: 'Poppins', sans-serif;
+    color: gray;
 }
 .nav-tabs {
     display: center;
