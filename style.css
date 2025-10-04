@@ -1,5 +1,8 @@
-.h2 .p {
-   text-align: center;
+h2 {
+    text-align: center;
+}
+p  {
+    text-color: gray;
 }
 h1 {
     color: white;
