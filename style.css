@@ -39,7 +39,7 @@ h1 {
 }
 body {
     padding-bottom: 70px;
-    
+    font-family: 'Poppins', sans-serif;
 }
 .nav-tabs {
     display: center;
