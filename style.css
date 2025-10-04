@@ -12,7 +12,7 @@ h1 {
     font-size: 32px;
     animation: fadeIn 2s ease-in-out;   
 }
-ul il {
+ul ol {
     color: gray;
 }
 @keyframes fadeIn {
